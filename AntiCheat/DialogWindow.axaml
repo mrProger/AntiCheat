@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="80"
+        MinWidth="900" MaxWidth="900" MinHeight="80" MaxHeight="80"
+        x:Class="AntiCheat.DialogWindow"
+        Title="DialogWindow" Icon="icon.ico">
+  <Grid Background="Bisque">
+    <TextBlock x:Name="MessageBlock" FontFamily="Tahoma" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 50"/>
+    <Button Background="Bisque" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="100" MinWidth="100" MaxWidth="100" Height="50" MinHeight="50" MaxHeight="50" Click="OkButtonClick">
+      <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="ОК" FontFamily="Tahoma" FontSize="20"/>
+    </Button>
+  </Grid>
+</Window>

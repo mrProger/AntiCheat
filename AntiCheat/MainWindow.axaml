@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"
+        MaxWidth="400" MinWidth="400" MaxHeight="200" MinHeight="200"
+        x:Class="AntiCheat.MainWindow"
+        Title="Античит" Icon="icon.ico">
+  <Grid Background="Bisque">
+    <TextBlock Text="EmpireORG Античит" HorizontalAlignment="Center" FontSize="23" FontFamily="Tahoma"/>
+    <Button HorizontalAlignment="Center" Margin="0 80 0 0" Background="Transparent" Width="380" MinWidth="380" MaxWidth="380" Height="40" MinHeight="40" MaxHeight="40" Click="ChangePathButtonClick">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="Изменить путь"/>
+    </Button>
+    <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="380" MinWidth="380" MaxWidth="380" Height="40" MinHeight="40" MaxHeight="40" Background="Transparent" Click="ExitButtonClick">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" FontFamily="Tahoma" Text="Выход"/>
+    </Button>
+  </Grid>
+</Window>

@@ -1,0 +1,4 @@
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\obj\Debutg\netcoreapp3.1\win-x64\AntiCheat.csprojAssemblyReference.cache
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\obj\Debutg\netcoreapp3.1\win-x64\AntiCheat.AssemblyInfoInputs.cache
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\obj\Debutg\netcoreapp3.1\win-x64\AntiCheat.AssemblyInfo.cs
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\obj\Debutg\netcoreapp3.1\win-x64\AntiCheat.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="150"
+        MinWidth="700" MaxWidth="700" MinHeight="150" MaxHeight="150"
+        x:Class="AntiCheat.SetMinecraftName"
+        Title="Введите имя майнкрафт файла" Icon="icon.ico">
+  <Grid Background="Bisque">
+    <TextBlock Content="Введите имя клиента майнкрафт:" FontFamily="Tahoma" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+    <TextBox x:Name="ClientNameBox" WaterMark="Minecraft Client Name" FontFamily="Tahoma" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center" Width="670" MinWidht="670" MaxWidth="670" Height="50" MinHeight="40" MaxHeight="40" Margin="0 50 0 0"/>
+    <Button Background="Bisque" Width="100" MinWidth="100" MaxWidth="100" Height="50" MinHeight="50" MaxHeight="50" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+      <TextBlock FontFamily="Tahoma" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Применить"/>
+    </Button>
+  </Grid>
+</Window>

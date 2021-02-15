@@ -1,0 +1,2 @@
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\bin\Debug\netcoreapp3.1\win-x64\publish\AntiCheat.pdb
+C:\Users\playc\Desktop\AntiCheat\AntiCheat\bin\Debug\netcoreapp3.1\win-x64\publish\AntiCheat.exe
